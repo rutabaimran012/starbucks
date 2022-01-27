@@ -21,7 +21,7 @@ nav{
 }
 body{
     font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 .header-div{
     padding: 32px 48px;
@@ -386,4 +386,115 @@ header{
 .people-div{
     background-color: #f2f0eb;
     padding: 32px 48px;
+}
+.section6{
+    text-align: center;
+}
+.section6-paragraph1{
+    padding: 55px 0;
+    font-size: 14px;
+    color: black;
+    width: 45%;
+    line-height: 23px;
+    margin-left: 411px;
+}
+.section6-paragraph2{
+    padding: 61px 0;
+    font-size: 14px;
+    color: black;
+    width: 45%;
+    line-height: 23px;
+    margin-left: 411px;
+}
+.section6-paragraph3{
+    padding: 32px 0;
+    font-size: 14px;
+    color: black;
+    width: 45%;
+    line-height: 23px;
+    margin-left: 411px;
+}
+.section6-link{
+    font-size: 14px;
+    color: black;
+}
+.section6-link:hover{
+    text-decoration: none;
+}
+footer{
+    padding: 24px 40px;
+    border-top: 2px solid #D4E9E2;
+}
+.footer-div1{
+    display: flex;
+}
+.footer-div2{
+    display: flex;
+    flex-direction: column;
+    margin-right: 52px;
+}
+.footer-div3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 32px;
+}
+.footer-div4{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3px;
+}
+.footer-div5{
+    display: flex;
+    flex-direction: column;
+    margin-left: -90px;
+    margin-right: -18px;
+}
+.footer-heading{
+    line-height: 1.5;
+    letter-spacing: -.01em;
+    font-size: 19px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 24px;
+}
+.footer-links{
+    color: rgba(0,0,0,.58);
+    font-size: 16px;
+    padding: 8px 0;
+    margin-bottom: 8px;
+    line-height: 1.5;
+    letter-spacing: -.01em;
+    font-weight: 400;
+    text-decoration: none;
+}
+.footer-links-wid{
+    color: rgba(0,0,0,.58);
+    font-size: 16px;
+    padding: 8px 0;
+    margin-bottom: 8px;
+    line-height: 1.5;
+    letter-spacing: -.01em;
+    font-weight: 400;
+    text-decoration: none;
+    width: 79%;
+}
+.footer-links-wid2{
+    color: rgba(0,0,0,.58);
+    font-size: 16px;
+    padding: 8px 0;
+    margin-bottom: 8px;
+    line-height: 1.5;
+    letter-spacing: -.01em;
+    font-weight: 400;
+    text-decoration: none;
+    width: 75%;
+}
+.footer-links-wid:hover{
+    color: rgb(63, 60, 60);
+}
+.footer-links-wid2:hover{
+    color: rgb(63, 60, 60);
+}
+.footer-links:hover{
+    color: rgb(63, 60, 60);
 }
