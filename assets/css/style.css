@@ -20,7 +20,8 @@ nav{
     margin: 10px;
 }
 body{
-    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    overflow-x: hidden;
 }
 .header-div{
     padding: 32px 48px;
@@ -122,9 +123,13 @@ header{
     background-color: rgb(76, 71, 71);
 }
 .cup-image{
-    width: 658px;
+    width: 661px;
     height: 561px;
     padding-right: 33px;
+}
+.burger-image{
+    width: 680px;
+    height: 561px;
 }
 .cup-burger-section{
     display: flex;
@@ -132,8 +137,8 @@ header{
 }
 .cup-burger-div{
     background-color: #1e3932;
-    padding: 0 20px 32px 76px;
-    width: 563px;
+    padding: 0 2px 32px 76px;
+    width: 584px;
     height: 283px;
 }
 .cup-heading{
@@ -166,7 +171,7 @@ header{
     color: #fff;
     border-color: #fff;
     cursor: pointer;
-    margin-left: 177px;
+    margin-left: 191px;
     margin-top: 32px;
 }
 .cup-button:hover{
@@ -189,4 +194,196 @@ header{
     color: #fff;
     width: 93%;
     margin-top: 20px;
+}
+.mob-image{
+    max-width: 110%;
+}
+.ubber-eats-image{
+    width: 700px;
+    height: 383px;
+}
+.mobile{
+    display: flex;
+    margin-top: 34px;
+}
+.mob-div{
+    background-color: #D4E9E2;
+    margin-right: 33px;
+    padding: 0 48px 32px 48px;
+}
+.ubber-eats-div{
+    background-color: #D4E9E2;
+    margin-right: -47px;
+}
+.mob-heading{
+    line-height: 1.5;
+    letter-spacing: -.01em;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1e3932;
+    text-align: center;
+    margin-left: 45px;
+}
+.mob-paragraph{
+    line-height: 1.75;
+    font-size: 19px;
+    color: #1e3932;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    text-align: center;
+    width: 91%;
+    margin-left: 35px;
+    margin-top: 23px;
+}
+.ubber-eats-heading{
+    line-height: 1.5;
+    letter-spacing: -.01em;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1e3932;
+    text-align: center;
+    margin-left: -60px;
+}
+.ubber-eats-paragraph{
+    line-height: 1.75;
+    font-size: 19px;
+    color: #1e3932;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    text-align: center;
+    width: 81%;
+    margin-left: 51px;
+    margin-top: 23px;
+}
+.mob-button{
+    background: none;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 7px 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    border-color: black;
+    cursor: pointer;
+    margin-left: 207px;
+    margin-top: 32px;
+}
+.mob-button:hover{
+    background-color: #d6f5ea;
+}
+.ubber-eats-button{
+    background: none;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 7px 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    border-color: black;
+    cursor: pointer;
+    margin-left: 265px;
+    margin-top: 21px;
+}
+.ubber-eats-button:hover{
+    background-color: #d6f5ea;
+}
+.creditcard-image{
+    width: 94%;
+    height: 392px;
+}
+.creditcard{
+    display: flex;
+    margin-top: 32px;
+}
+.creditcard-div{
+    background-color: #D4E9E2;
+    padding: 32px 48px;
+}
+.creditcard-heading{
+    line-height: 1.5;
+    letter-spacing: -.01em;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #1e3932;
+    width: 78%;
+    margin-left: 53px;
+}
+.people-heading{
+    line-height: 1.5;
+    letter-spacing: -.01em;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #1e3932;
+    width: 78%;
+    margin-left: 53px;
+    margin-top: 50px;
+}
+.creditcard-paragraph{
+    line-height: 1.75;
+    font-size: 19px;
+    color: #1e3932;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    text-align: center;
+    width: 71%;
+    margin-left: 81px;
+    margin-top: 20px;
+}
+.creditcard-button{
+    background: none;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 7px 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    border-color: black;
+    cursor: pointer;
+    margin-left: 244px;
+    margin-top: 32px;
+}
+.people-button{
+    background: none;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 7px 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    border-color: black;
+    cursor: pointer;
+    margin-left: 228px;
+    margin-top: 32px;
+}
+.people-button:hover{
+    background-color: #ece5d3;
+}
+.creditcard-button:hover{
+    background-color: #d6f5ea;
+}
+.people-image{
+    width: 674px;
+    height: 393px;
+}
+.people{
+    display: flex;
+    margin-top: 32px;
+}
+.people-div{
+    background-color: #f2f0eb;
+    padding: 32px 48px;
 }
