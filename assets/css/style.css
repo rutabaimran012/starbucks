@@ -498,3 +498,74 @@ footer{
 .footer-links:hover{
     color: rgb(63, 60, 60);
 }
+.footer-div6{
+    padding-top: 32px;
+    border-top: 2px solid #D4E9E2;
+    padding-bottom: 32px;
+}
+.footer-images{
+    margin-right: 10px;
+}
+.footer-images:hover{
+    background-color: #b1c4bd;
+    border: 8px solid #b1c4bd;
+    border-radius: 25px;
+}
+.footer-last-links1{
+    font-size: 16px;
+    color: black;
+    line-height: 1.5;
+    letter-spacing: -.01em;
+    text-decoration: none;
+    padding-right: 16px;
+    font-weight: 400;
+}
+.footer-last-links2{
+    font-size: 16px;
+    color: black;
+    line-height: 1.5;
+    letter-spacing: -.01em;
+    text-decoration: none;
+    padding-right: 18px;
+    padding-left: 18px;
+    font-weight: 400;
+    border-left: 1px solid rgb(80, 76, 76);
+    border-right: 1px solid  rgb(80, 76, 76);
+}
+.footer-last-links3{
+    font-size: 16px;
+    color: black;
+    line-height: 1.5;
+    letter-spacing: -.01em;
+    text-decoration: none;
+    padding-right: 18px;
+    padding-left: 18px;
+    font-weight: 400;
+    border-right: 1px solid  rgb(80, 76, 76);
+}
+.footer-last-links4{
+    font-size: 16px;
+    color: black;
+    line-height: 1.5;
+    letter-spacing: -.01em;
+    text-decoration: none;
+    padding-left: 16px;
+    font-weight: 400;
+}
+.footer-last-links1:hover{
+    text-decoration: underline;
+}
+.footer-last-links2:hover{
+    text-decoration: underline;
+}
+.footer-last-links3:hover{
+    text-decoration: underline;
+}
+.footer-last-links4:hover{
+    text-decoration: underline;
+}
+.footer-paragraph{
+    color: rgba(0,0,0,.58);
+    font-size: 14px;
+    padding: 23px 0 16px 0;
+}
